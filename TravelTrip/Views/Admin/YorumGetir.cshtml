@@ -1,0 +1,33 @@
+﻿@model TravelTrip.Models.Siniflar.Yorumlar
+@{
+    ViewBag.Title = "YorumGetir";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Yorum Güncelle</h2>
+
+@using (Html.BeginForm("YorumGuncelle", "Admin", FormMethod.Post))
+{
+    <form class="form-group" method="post">
+
+        @Html.LabelFor(m => m.ID)
+        @Html.TextBoxFor(m => m.ID, new { @class = "form-control" })
+
+        <br />
+        @Html.LabelFor(m => m.KullaniciAdi)
+        @Html.TextBoxFor(m => m.KullaniciAdi, new { @class = "form-control" })
+
+        <br />
+        @Html.LabelFor(m => m.Mail)
+        @Html.TextBoxFor(m => m.Mail, new { @class = "form-control" })
+        <br />
+        @Html.LabelFor(m => m.Yorum)
+        @Html.TextAreaFor(m => m.Yorum, new { @class = "form-control" })
+        <br />
+        @Html.LabelFor(m => m.Blogid)
+        @Html.TextBoxFor(m => m.Blogid, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-primary">Yorum Güncelle</button>
+    </form>
+}
+

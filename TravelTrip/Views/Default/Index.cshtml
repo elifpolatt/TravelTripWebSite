@@ -1,0 +1,90 @@
+﻿@using TravelTrip.Models.Siniflar
+@model List<Blog>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="header-banner">
+    <div class="wrap">
+        <div class="banner">
+            <div class="indent">
+                <h2 class="indent-left margin-bot" style="margin-left:80px;">Tatil - Seyahat Bloğum</h2>
+                <div class="banner-left">
+                    <div class="con-text">
+                        <div class="grid1-img">
+                            <img src="/web/images/glass.png" alt="">
+                        </div>
+                        <div class="grid1-desc">
+                            <p>Restoranlar</p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="con-text">
+                        <div class="grid1-img">
+                            <img src="/web/images/flight.png" alt="">
+                        </div>
+                        <div class="grid1-desc">
+                            <p>Uçuşlar</p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="con-text">
+                        <div class="grid1-img">
+                            <img src="/web/images/group.png" alt="">
+                        </div>
+                        <div class="grid1-desc">
+                            <p>Yapılacak Şeyler</p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="con-text">
+                        <div class="grid1-img">
+                            <img src="/web/images/key.png" alt="">
+                        </div>
+                        <div class="grid1-desc">
+                            <p>Araba Kirala</p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="header_bottom_right_images">
+
+
+                    <div class="slider">
+                        <ul class="rslides" id="slider1">
+                            @foreach (var item in Model)
+                            {
+                                <div style=" width: 650px; height:365px;">
+                                <li><img src="@item.BlogImage" alt=""></li>
+                        </div>
+                    }
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        </div>
+        <div class="wrap">
+            <div class="wrapper">
+                <div class="con-top">
+                    <h3>Tatil - Seyahat Bloğuma Hoş Geldiniz!</h3>
+                    <p>Gezip gördüğüm yerleri sizlerle paylaşmaktan çok mutluyum. </p>
+                    <p>Hem Türkiye'den hem de yurt dışından gezip gördüğüm yerleri blog yazıları olarak bu sitede paylaşacağım. Umarım yazdıklarımı beğenirsiniz. Keyifli okumalar. </p>
+                </div>
+                @Html.Action("Partial1", "Default")
+                <div class="grids">
+                    <div class="box1">
+                        @Html.Action("Partial3", "Default")
+                        @Html.Action("Partial4", "Default")
+                       
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
