@@ -4,10 +4,14 @@ Kullanıcı ve admin panelli olan bu mini blog projesi Asp.NET MVC5 ile gelişti
 Entity Framework ve Linq sorgularından faydalanılmıştır.
 <br/><br/>
 Ana Sayfa
-![image](https://user-images.githubusercontent.com/123379493/228838447-3e21a125-43cf-46af-9f4f-308ff5019c2b.png) 
-![image](https://user-images.githubusercontent.com/123379493/228838566-b5ede1e4-055b-4dcc-bc54-c6574630d0fa.png) 
-![image](https://user-images.githubusercontent.com/123379493/228838756-0b8a9356-6416-4d41-97ef-e14e46d2a2b4.png) 
-![image](https://user-images.githubusercontent.com/123379493/228838872-1ddd7f5d-840b-4879-ac19-0a8735191c1a.png) 
+![image](https://user-images.githubusercontent.com/123379493/228872963-96316553-0143-4e81-929d-22266943d6df.png)
+![image](https://user-images.githubusercontent.com/123379493/228872413-f194404b-b437-431a-9349-c881245c2f2e.png)
+![image](https://user-images.githubusercontent.com/123379493/228872473-e14284c3-f4ae-4b68-bc48-39c9874fcdee.png)
+![image](https://user-images.githubusercontent.com/123379493/228872522-7d000b94-96d7-45c8-8b1f-f423d6956047.png)
+![image](https://user-images.githubusercontent.com/123379493/228872560-4409291e-9bdf-46aa-b378-a818cb42d68e.png)
+![image](https://user-images.githubusercontent.com/123379493/228872614-f6fba98f-fa27-4dd2-9027-7d2cc9f00305.png)
+![image](https://user-images.githubusercontent.com/123379493/228872666-7fd1f046-6695-498e-8d3b-ce15f2bb8b7a.png)
+![image](https://user-images.githubusercontent.com/123379493/228872722-8f9ebd0f-0c22-42e8-b265-13e302c0b477.png)
 <br/>
 Admin Paneli
 <br/>
