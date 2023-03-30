@@ -1,6 +1,6 @@
 # TravelTripWebSite <br/>
 
-Kullanıcı ve admin panelli olan bu blog projesi Asp.NET MVC5 ile geliştirilmiştir. 
+Kullanıcı ve admin panelli olan bu mini blog projesi Asp.NET MVC5 ile geliştirilmiştir. 
 Entity Framework ve Linq sorgularından faydalanılmıştır.
 <br/><br/>
 Ana Sayfa
