@@ -1,7 +1,8 @@
 # TravelTripWebSite <br/>
 
-Kullanıcı ve admin panelli olan bu mini blog projesi Asp.NET MVC5 ile geliştirilmiştir. 
-Entity Framework ve Linq sorgularından faydalanılmıştır.
+ASP.NET MVC5 tabanlı mini seyahat blogu projesi, seyahat tutkunları için tasarlanmıştır. Bu proje, kullanıcıların seyahat deneyimlerini paylaşmalarına ve seyahat planlamalarını yapmalarına yardımcı olacak özellikleri barındırır. <br/><br/>
+Projede Linq sorguları ve Entity Framework kullanılarak veri yönetimi sağlanmıştır. Bu sayede, tüm veriler güvenli ve hızlı bir şekilde yönetilebilir. <br/><br/>
+Bu proje kullanıcılara ve yöneticilere yönelik olarak ayrı ayrı geliştirilmiş admin ve kullanıcı panellerine sahiptir. Bu sayede, kullanıcılar seyahat deneyimlerini paylaşabilir ve seyahat planlamalarını yapabilirken, aynı anda da tüm içeriği kolaylıkla yönetebilirler.
 <br/><br/>
 Ana Sayfa
 ![image](https://user-images.githubusercontent.com/123379493/228872963-96316553-0143-4e81-929d-22266943d6df.png)
